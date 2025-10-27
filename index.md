@@ -1,11 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
-
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-  <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
-{% endfor %}
+In questo blog puoi trovare i miei pensieri su tutti i temi che mi interessano, dal cinema, la tecnologia, i libri, la politica, quello di cui mi va di scrivere.
