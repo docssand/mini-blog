@@ -3,6 +3,15 @@ hr {
   margin-bottom: 20px;
 }
 
+body {
+  color: rgb(245, 239, 239);
+  background-color: #121212;
+}
+
+.page-link {
+  color: inherit !important;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
