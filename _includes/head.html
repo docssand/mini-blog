@@ -20,29 +20,28 @@
   {%- endif %}
 
   <!-- Begin highlight.js support -->
-  <link rel="stylesheet" href="/js/highlightjs/styles/github.css" />
-  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
+  <link
+    rel="stylesheet"
+    href="{{ '/js/highlightjs/styles/github.css' | relative_url }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ '/js/highlightjs/styles/ssms.css' | relative_url }}"
+  />
 
-  <script
-    type="text/javascript"
-    src="/js/highlightjs/highlight.min.js"
-  ></script>
+  <script src="{{ '/js/highlightjs/highlight.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/highlightjs/languages/plaintext.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/highlightjs/languages/powershell.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/highlightjs/languages/tsql.min.js' | relative_url }}"></script>
 
-  <script
-    type="text/javascript"
-    src="/js/highlightjs/languages/plaintext.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="/js/highlightjs/languages/powershell.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="/js/highlightjs/languages/tsql.min.js"
-  ></script>
-
-  <script type="text/javascript">
-    hljs.highlightAll();
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.hljs && typeof hljs.highlightAll === "function") {
+        hljs.highlightAll();
+      } else {
+        console.warn("highlight.js not loaded; skipping hljs.highlightAll()");
+      }
+    });
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
