@@ -5,7 +5,7 @@ tags: review movie
 date: 2025-10-26
 ---
 
-## Review: Speak No Evil (2024)
+## Review🎬: Speak No Evil (2024)
 
 In questo remake Americano di una storia Danese le scelte che lo rendono diverso dall'originale fanno affiorare dei temi che trovo molto interessanti.
 
