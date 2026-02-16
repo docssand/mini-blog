@@ -5,7 +5,8 @@ tags: review documentary
 date: 2026-02-15
 ---
 
-## Review📼: Disney Handcrafted (2026) 🔵🔵🔵⚪️
+## Review: Disney Handcrafted 
+### 📼, 2026, 3/4
 
 Il documentario ripercorre l'anno di costruzione del primo Disneyland ad Anaheim, ormai parte della città metropolitana di Los Angeles, ma che al tempo era terreno libero a 50 minuti dalla città.
 

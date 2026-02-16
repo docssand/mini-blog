@@ -13,15 +13,17 @@ body {
   border-bottom: unset;
 }
 
-.site-title, .site-title:visited {
+.site-title,
+.site-title:visited {
   color: wheat;
+  font-family: "Cardinal", sans-serif;
+  font-family: "Cardinal Alternate", sans-serif;
 }
 
 .site-footer {
   background-color: #2f372f;
   border-top: unset;
 }
-
 
 .page-link {
   color: inherit !important;
