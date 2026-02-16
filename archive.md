@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Archive
-permalink: /mini-blog/archive/
 ---
 
 {% for tag in site.tags %}
