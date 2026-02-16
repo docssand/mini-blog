@@ -40,3 +40,7 @@ defaults:
       type: posts
     values:
       tags: Other
+
+permalink: /:year/:month/:day/:title/
+
+baseurl: "/mini-blog"
