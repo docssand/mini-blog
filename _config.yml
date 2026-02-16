@@ -40,7 +40,3 @@ defaults:
       type: posts
     values:
       tags: Other
-
-permalink: /:categories/:title/
-
-baseurl: "/mini-blog"
