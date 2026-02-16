@@ -22,6 +22,10 @@ body {
   font-family: "Cardinal Alternate", sans-serif;
 }
 
+.post-title {
+  font-family: "Cardinal Alternate", sans-serif;
+}
+
 .site-footer {
   background-color: #2f372f;
   border-top: unset;
