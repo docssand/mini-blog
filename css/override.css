@@ -118,6 +118,11 @@ body {
   color: var(--color-primary);
 }
 
+.post-link:visited {
+  color: var(--color-primary) !important;
+  filter: brightness(90%) saturate(200%);
+}
+
 .post-link:hover {
   text-decoration: underline;
 }
