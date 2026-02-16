@@ -14,6 +14,6 @@ Il documentario scorre con tensione e grande attesa per la scadenza vicinissima 
 
 Il documentario è comunque un prodotto di propaganda Disney, tralasciando reali problemi o controversie, citando per esempio gli scioperi come mero ostacolo da superare per terminare il lavoro.
 
-Resta, il parco, comunque un'opera di immaginazione, progettazione e creazione incredibile, resa possibile solo dal genio visionario di Walt Disney. Si resta a bocca aperta per ciò che è stato possibile realizzare ormai 70 anni fa con terra brulla e ingegno umano.
+Il parco resta, comunque, un'opera di immaginazione, progettazione e creazione incredibile, resa possibile solo dal genio visionario di Walt Disney. Si resta a bocca aperta per ciò che è stato possibile realizzare ormai 70 anni fa con terra brulla e ingegno umano.
 
 Il documentario racconta comunque una storia, ed è una lettera di ringraziamento per chi l'ha reso davvero possibile.
