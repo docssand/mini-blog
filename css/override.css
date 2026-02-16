@@ -111,3 +111,13 @@ body {
 .post-meta-extra .post-tags .tag:hover {
   color: #fff;
 }
+
+.post-link {
+  display: block;
+  font-size: 24px;
+  color: var(--color-primary);
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
