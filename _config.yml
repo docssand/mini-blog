@@ -41,6 +41,6 @@ defaults:
     values:
       tags: Other
 
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 
 baseurl: "/mini-blog"
