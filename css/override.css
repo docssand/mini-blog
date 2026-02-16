@@ -20,6 +20,10 @@ body {
   font-family: "Cardinal Alternate", sans-serif;
 }
 
+.post-title {
+  font-family: "Cardinal Alternate", sans-serif;
+}
+
 .site-footer {
   background-color: #2f372f;
   border-top: unset;
@@ -72,4 +76,23 @@ body {
 
 .post-content {
   font-family: "SUSE Mono", monospace;
+}
+
+/* Metadata styles */
+.post-meta-extra {
+  margin-top: 0.5em;
+  font-size: 0.95em;
+  color: rgba(255, 255, 255, 0.85);
+}
+.post-meta-extra .post-rating {
+  margin-right: 1em;
+  font-weight: 600;
+}
+.post-meta-extra .post-tags .tag {
+  color: #cde;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.08);
+}
+.post-meta-extra .post-tags .tag:hover {
+  color: #fff;
 }

@@ -40,3 +40,5 @@ defaults:
       type: posts
     values:
       tags: Other
+
+permalink: /mini-blog/:categories/:year/:month/:day/:title/

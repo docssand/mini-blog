@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Sentimental Value
-tags: review movie
+title: "Sentimental Value"
+tags: [review, movie]
 date: 2026-02-15
+rating: 3/4
 ---
 
-## Review: Sentimental Value
-### 🎬, 2025, 3/4
 

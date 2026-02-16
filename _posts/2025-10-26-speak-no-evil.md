@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Speak No Evil
-tags: review movie
+title: "Speak No Evil"
+tags: [review, movie]
 date: 2025-10-26
+rating: 3/4
 ---
-
-## Review: Speak No Evil
-### 🎬, 2024, 3/4
 
 In questo remake Americano di una storia Danese le scelte che lo rendono diverso dall'originale fanno affiorare dei temi che trovo molto interessanti.
 
