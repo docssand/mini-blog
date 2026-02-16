@@ -47,13 +47,17 @@ layout: default
       %}
     >
       {% if page.rating %}
-      <span class="post-rating">Rating: {{ page.rating }}</span>
+      <span class="post-rating">
+        {% assign rating_num = page.rating | plus: 0 %} {% assign empty_rating =
+        4 | minus: rating_num %} {% for i in (1..rating_num) %} 🟢{% endfor %}
+        {% for i in (1..empty_rating) %} ⚪️{% endfor %}
+      </span>
       {% endif %} {% if page.tags %}
       <span class="post-tags"
-        >Tags: {% for tag in page.tags %}
-        <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag"
+        >{% for tag in page.tags %}
+        <a href="{{ '/tags/' | append: tag | relative_url }}" class="post-tag"
           >{{ tag }}</a
-        >{% unless forloop.last %}, {% endunless %} {% endfor %}
+        >{% unless forloop.last %} {% endunless %} {% endfor %}
       </span>
       {% endif %}
     </div>

@@ -3,7 +3,7 @@ layout: post
 title: "Disney Handcrafted"
 tags: [review, documentary]
 date: 2026-02-15
-rating: 3/4
+rating: 3
 ---
 
 Il documentario ripercorre l'anno di costruzione del primo Disneyland ad Anaheim, ormai parte della città metropolitana di Los Angeles, ma che al tempo era terreno libero a 50 minuti dalla città.
