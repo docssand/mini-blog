@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Disney Handcrafted
-tags: review documentary
+title: "Disney Handcrafted"
+tags: [review, documentary]
 date: 2026-02-15
+rating: 3
 ---
-
-## Review📼: Disney Handcrafted (2026) 🔵🔵🔵⚪️
 
 Il documentario ripercorre l'anno di costruzione del primo Disneyland ad Anaheim, ormai parte della città metropolitana di Los Angeles, ma che al tempo era terreno libero a 50 minuti dalla città.
 
@@ -15,6 +14,6 @@ Il documentario scorre con tensione e grande attesa per la scadenza vicinissima 
 
 Il documentario è comunque un prodotto di propaganda Disney, tralasciando reali problemi o controversie, citando per esempio gli scioperi come mero ostacolo da superare per terminare il lavoro.
 
-Resta, il parco, comunque un'opera di immaginazione, progettazione e creazione incredibile, resa possibile solo dal genio visionario di Walt Disney. Si resta a bocca aperta per ciò che è stato possibile realizzare ormai 70 anni fa con terra brulla e ingegno umano.
+Il parco resta, comunque, un'opera di immaginazione, progettazione e creazione incredibile, resa possibile solo dal genio visionario di Walt Disney. Si resta a bocca aperta per ciò che è stato possibile realizzare ormai 70 anni fa con terra brulla e ingegno umano.
 
 Il documentario racconta comunque una storia, ed è una lettera di ringraziamento per chi l'ha reso davvero possibile.

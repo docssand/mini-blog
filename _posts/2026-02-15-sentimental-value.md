@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Sentimental Value
-tags: review movie
+title: "Sentimental Value"
+tags: [review, movie]
 date: 2026-02-15
 rating: 4
 ---
-
 Un’attrice dietro le quinte è pronta a entrare nel palco di uno spettacolo di successo, ma è recalcitrante e in pieno attacco di panico. Deve essere tirata e obbligata a iniziare la sua performance. Una volta sul palco, Nora, è una forza della natura.
 
 Il “sentimental value” in questo film è rappresentato da vari elementi ma, al centro di tutto e più importante, è la casa dell’infanzia di Nora che in seguito al funerale della madre diventa un raccordo intrecciato di memorie e traumi esumati. Tra questi ricordi, quelli del padre assente Gustav sono fonte di ricordi spiacevoli per Nora: di quando lo aveva in casa litigioso con la madre ma, sopratutto, del momento in cui andò via e rimase per lo più assente per il resto della sua vita adulta.

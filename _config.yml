@@ -34,9 +34,15 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+header_pages: []
+
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       tags: Other
+
+permalink: /:year/:month/:day/:title/
+
+baseurl: "/mini-blog"

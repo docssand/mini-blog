@@ -1,0 +1,102 @@
+---
+layout: default
+title: "Calcolatrice🍕"
+---
+
+<div class="container">
+  <h2>Calcolatrice🍕</h2>
+  <h2>1 panetto = 300g</h2>
+  <div class="inputPizzas">
+    <input type="number" id="numberInput" placeholder="Numero di panetti" />
+    <button id="calculateButton">Calcola</button>
+  </div>
+  <div class="card" id="resultCard">
+    <h2>Risultati</h2>
+    <p>Farina: <span id="farinaResult">0</span>g</p>
+    <p>Acqua Subito: <span id="acquaSubitoResult">0</span>g</p>
+    <p>Acqua Dopo: <span id="acquaDopoResult">0</span>g</p>
+    <p>Lievito: <span id="lievitoResult">0</span>g</p>
+    <p>Sale: <span id="saleResult">0</span>g</p>
+  </div>
+</div>
+
+<style>
+ 
+
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--color-secondary);
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .inputPizzas {
+    display: flex;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .card {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .card h2 {
+    margin-top: 0;
+  }
+
+  .card p {
+    margin: 5px 0;
+  }
+</style>
+
+<script>
+  document.getElementById('calculateButton').addEventListener('click', function() {
+    const numberInput = document.getElementById('numberInput').value;
+    const number = parseFloat(numberInput);
+
+    if (isNaN(number)) {
+        alert('Please enter a valid number');
+        return;
+    }
+
+    const farina = number * 164.29;
+const acquaSubito = number * 90.71;
+const acquaDopo = number * 41.19;
+const lievito = number * 1.65;
+const sale = number * 4.95;
+
+    document.getElementById('farinaResult').textContent = farina.toFixed(2);
+    document.getElementById('acquaSubitoResult').textContent = acquaSubito.toFixed(2);
+    document.getElementById('acquaDopoResult').textContent = acquaDopo.toFixed(2);
+    document.getElementById('lievitoResult').textContent = lievito.toFixed(2);
+    document.getElementById('saleResult').textContent = sale.toFixed(2);
+});
+
