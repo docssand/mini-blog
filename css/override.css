@@ -22,9 +22,9 @@ body {
   font-family: "Cardinal Alternate", sans-serif;
 }
 
-.post-title {
+.post-title .home > p {
   color: var(--color-primary);
-  font-family: "Story Script", sans-serif;
+  font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -141,4 +141,12 @@ body {
 
 .home .rss-subscribe {
   display: none;
+}
+
+.post-list h3 a {
+  color: var(--color-primary);
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
 }
