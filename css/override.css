@@ -22,17 +22,12 @@ body {
   font-family: "Cardinal Alternate", sans-serif;
 }
 
-<<<<<<< HEAD
 .post-title,
 .post-list h3 a {
   color: var(--color-primary);
   font-family: "Quintessential", serif;
   font-weight: 400;
   font-style: normal;
-=======
-.post-title {
-  font-family: "Cardinal Alternate", sans-serif;
->>>>>>> 0fa5ffa (feat: add permalink structure and enhance post metadata display; update styles for post titles and metadata)
 }
 
 .site-footer {
