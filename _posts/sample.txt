@@ -3,6 +3,5 @@ layout: post
 title: TITLE
 tags: review documentary movie book comic
 date: 2026-02-15
+rating: 3
 ---
-
-## Review🎬📼📖💭: TITLE (YEAR) 🔵🔵🔵⚪️
