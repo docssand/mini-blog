@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Other Minds
-tags:
-  - review
-  - book
+tags: [review, book]
 date: 2025-12-15
 rating: 3
 ---
