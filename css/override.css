@@ -127,6 +127,15 @@ body {
   filter: brightness(90%) saturate(200%);
 }
 
-.post-link:hover {
+.site-footer a {
+  color: var(--color-primary);
+}
+
+.post-link:hover,
+.site-footer a:hover {
   text-decoration: underline;
+}
+
+.home .rss-subscribe {
+  display: none;
 }
