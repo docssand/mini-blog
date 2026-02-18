@@ -22,7 +22,8 @@ body {
   font-family: "Cardinal Alternate", sans-serif;
 }
 
-.post-title .home > p {
+.post-title,
+.post-list h3 a {
   color: var(--color-primary);
   font-family: "Quintessential", serif;
   font-weight: 400;
@@ -36,10 +37,6 @@ body {
 
 .page-link {
   color: inherit !important;
-}
-
-.post-title {
-  color: var(--color-primary);
 }
 
 /* Post navigation links */
@@ -83,7 +80,8 @@ body {
   opacity: 0.3;
 }
 
-.post-content {
+.post-content,
+.home > p {
   font-family: "SUSE Mono", monospace;
 }
 .post-tags {
@@ -141,12 +139,4 @@ body {
 
 .home .rss-subscribe {
   display: none;
-}
-
-.post-list h3 a {
-  color: var(--color-primary);
-  font-family: "Quintessential", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.4rem;
 }
