@@ -6,18 +6,24 @@ date: 2025-10-26
 rating: 3
 ---
 
-In questo remake Americano di una storia Danese le scelte che lo rendono diverso dall'originale fanno affiorare dei temi che trovo molto interessanti.
+In questo remake americano di una storia danese, le differenze rispetto all’originale fanno emergere temi che trovo molto interessanti.
 
-I personaggi possiamo dividerli in due archetipi rappresentati dalle due famiglie: una rappresenta la tradizione e l'altra la modernità.
-Abbiamo due uomini: uno cacciatore, con una fisicità importante, prende l'iniziativa, l'altro moderno che in ogni aspetto della sua vita perde la sua "mascolinità".
-Le due donne, una sottomessa a quello che decide il suo uomo, l'altra caparbia, coraggiosa, si prende cura della sua famiglia perché nessun'altro lo farà.
+I personaggi si lasciano leggere come due archetipi incarnati dalle due famiglie: da una parte la tradizione, dall’altra la modernità.
 
-Poi scopriremo che c'è del marcio dietro tutto, ma io voglio concentrarmi sull'essenza di questi archetipi e cosa significano nel presente.
+Abbiamo due uomini: uno cacciatore, fisico imponente, abituato a prendere l’iniziativa; l’altro “moderno”, che in ogni aspetto della sua vita sembra perdere pezzi della propria mascolinità.
 
-L'uomo tradizionale si rifugia dietro una facciata di sicurezza nelle sue azioni, è forte, è furbo, in più modi può e assoggetta il prossimo.
+Le due donne sono il contrappunto: una sottomessa alle decisioni del marito, l’altra caparbia, coraggiosa, costretta a prendersi cura della propria famiglia perché nessun altro lo farà.
 
-L'uomo moderno è perduto, senza una via da seguire già tracciata nella terra per lui dagli antenati. Il nostro personaggio infatti non ha potere nella sua vita: la moglie è delusa da lui e cerca l'interesse di altri uomini, perde il lavoro e non riceve risposte ai colloqui, più di tutto non prende mai azione perché non sa qual'è la cosa giusta da fare.
+Che dietro tutto ci sia del marcio lo scopriremo presto, ma qui mi interessa l’essenza di questi archetipi e cosa significano oggi.
 
-Analizziamo invece la donna moderna: lei nonstante tutto, nonostante ciò che deve già gestire della propria vita, è richiamata anche a gestire la famiglia; deve prendersi cura non solo della figlia ma anche del suo uomo. Nel film questo è ben rappresentato dal fatto che ogni azione violenta atta a portare in salvo la famiglia è compiuta da lei. Ma non solo, deve anche indicare la via al suo uomo, anche questa è sua responsabilità. 
+L’uomo tradizionale si rifugia dietro una facciata di sicurezza: agisce senza tentennamenti, è forte, è furbo e in più modi può, e spesso assoggetta, chi gli sta intorno.
 
-Nell'entrare nell'era moderna la donna ha avuto la sua scoperta,
+L’uomo moderno invece è perduto, senza più una traccia già segnata nella terra dagli antenati. Il protagonista non ha potere nella sua vita: la moglie è delusa e cerca l’attenzione di altri uomini, perde il lavoro, ai colloqui non riceve risposta, e soprattutto non prende mai decisioni perché non sa più quale sia la cosa “giusta” da fare.
+
+La donna moderna, al contrario, è sovraccarica. A ciò che deve già gestire della propria vita si aggiunge il peso della famiglia: deve prendersi cura non solo della figlia, ma anche del suo uomo. Il film lo mostra chiaramente: ogni atto di violenza necessario a salvare la famiglia è compiuto da lei. E non basta. Deve anche indicare la via al compagno: pure questa diventa una sua responsabilità.
+
+Entrando nell’era moderna la donna ha avuto una rivoluzione: da oggetto confinato in una posizione senza potere a soggetto che decide per sé e, spesso, anche per gli altri. Non solo ha ottenuto agency: deve continuare a sostenere le antiche responsabilità. È dato quasi per scontato; dopotutto, l’uomo non ha avuto una vera evoluzione.
+
+L’uomo moderno è stato decostruito: prova a restare aggrappato al vecchio controllo patriarcale, ma appare patetico nel tentativo. Il mondo è andato avanti, lui no. Non ha avuto una catarsi, non si è trasformato: è un guscio di ciò che era.
+
+Ed è proprio in questa crepa che si insinua, viscida, la retorica conservatrice: l’ideale dell’uomo cacciatore, forte, che tiene la famiglia in pugno. In un panorama di smarrimento, il ritorno indietro sembra l’unica via. Ma forse, più che un ritorno al passato, all’uomo serve tempo per ricostruirsi, mentre la donna diventa padrona del proprio destino e salva la sua famiglia, ponendo fine a questa pazzia.
