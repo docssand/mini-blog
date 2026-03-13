@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Sentimental Value"
-tags: [review, movie]
-date: 2026-02-15
+title: Sentimental Value
+tags:
+  - review
+  - movie
+date: 2026-02-14
 rating: 4
 ---
 Un’attrice dietro le quinte è pronta a entrare nel palco di uno spettacolo di successo, ma è recalcitrante e in pieno attacco di panico. Deve essere tirata e obbligata a iniziare la sua performance. Una volta sul palco, Nora, è una forza della natura.
