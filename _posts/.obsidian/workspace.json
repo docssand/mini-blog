@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac03665f381829f",
+        "id": "7e4482a67ff52581",
         "type": "tabs",
         "children": [
           {
-            "id": "85654af6b8b47db5",
+            "id": "072f3bb2aaa9a6bc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "_posts/.obsidian/workspace.json",
-                "bFile": "_posts/.obsidian/workspace.json",
-                "aRef": ""
+                "file": "2025-10-26-speak-no-evil.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2025-10-26-speak-no-evil"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -194,6 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85654af6b8b47db5",
-  "lastOpenFiles": []
+  "active": "2c38dc43cb4ff798",
+  "lastOpenFiles": [
+    "2026-02-15-sentimental-value.md",
+    "2026_03_08-o-agente-secreto.md",
+    "2026-02-14-sentimental-value.md",
+    "2025-10-26-speak-no-evil.md",
+    "2025-12-15-other-minds.md",
+    "2026-02-15-disney-handcrafted.md"
+  ]
 }
