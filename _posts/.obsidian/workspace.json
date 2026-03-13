@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "9709887527ae78f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e4482a67ff52581",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "072f3bb2aaa9a6bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-10-26-speak-no-evil.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-26-speak-no-evil"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b2571e137e10d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "f209f4e21ca3983e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2ef0c842c0aaf16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora risorse"
+            }
+          },
+          {
+            "id": "95cf7b6d7c5a53d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "0aa34c4b0c55f962",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6db2acc44797db17",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc5b926f70c2229d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2782481a31f4fc85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2025-10-26-speak-no-evil.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti a 2025-10-26-speak-no-evil"
+            }
+          },
+          {
+            "id": "35320b9a722d6b9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-10-26-speak-no-evil.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita da 2025-10-26-speak-no-evil"
+            }
+          },
+          {
+            "id": "cc894e02b072a2db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "a77bf2fde005abb3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "d77dc3a9020e6c79",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-10-26-speak-no-evil.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura di 2025-10-26-speak-no-evil"
+            }
+          },
+          {
+            "id": "2c38dc43cb4ff798",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "2c38dc43cb4ff798",
+  "lastOpenFiles": [
+    "2026-02-15-sentimental-value.md",
+    "2026_03_08-o-agente-secreto.md",
+    "2026-02-14-sentimental-value.md",
+    "2025-10-26-speak-no-evil.md",
+    "2025-12-15-other-minds.md",
+    "2026-02-15-disney-handcrafted.md"
+  ]
+}
