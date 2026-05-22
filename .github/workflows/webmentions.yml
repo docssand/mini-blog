@@ -1,0 +1,46 @@
+name: Webmentions
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    paths:
+      - "_posts/**"
+      - ".github/workflows/webmentions.yml"
+      - "scripts/**"
+
+jobs:
+  update-webmentions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch Webmentions and update data
+        env:
+          WEBMENTION_DOMAIN: webi-sabi.com
+          WEBMENTION_BASEURL: /mini-blog
+          WEBMENTION_DATA_DIR: _data/webmentions
+          WEBMENTION_POSTS_DIR: _posts
+          WEBMENTION_SITE_URL: https://webi-sabi.com
+          WEBMENTION_IO_ENDPOINT: https://webmention.io/webmention
+          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }}
+        run: |
+          python scripts/fetch_webmentions.py \
+            --domain "$WEBMENTION_DOMAIN" \
+            --baseurl "$WEBMENTION_BASEURL" \
+            --data-dir "$WEBMENTION_DATA_DIR" \
+            --posts-dir "$WEBMENTION_POSTS_DIR" \
+            --site-url "$WEBMENTION_SITE_URL"
+
+      - name: Commit new webmention data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/webmentions
+          git diff --quiet --cached || git commit -m "Update webmention data"
+          git push origin HEAD:${{ github.ref_name }}

@@ -7,30 +7,20 @@ layout: default
   type="text/css"
   href="{{ '/css/override.css' | relative_url }}"
 />
-<article
-  class="post h-entry"
-  itemscope
-  itemtype="http://schema.org/BlogPosting"
->
+<article class="post h-entry">
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">
-      {{ page.title | escape }}
-    </h1>
+    <h1 class="post-title p-name">{{ page.title | escape }}</h1>
 
     <p class="post-meta">
-      <time
-        class="dt-published"
-        datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished"
-      >
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
         -%} {{ page.date | date: date_format }}
       </time>
       {% assign author = page.author | default: site.author %} {%- if author -%}
-      •
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
-        ><span class="p-author h-card" itemprop="name">{{ author }}</span></span
-      >
+      ·
+      <a class="p-author h-card" href="{{ '/about/' | relative_url }}">
+        <span class="p-name">{{ author.name }}</span>
+      </a>
       {%- endif -%}
     </p>
 
@@ -69,6 +59,42 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }} {% include navlinks.html %}
   </div>
+
+  {% assign wm = site.data.webmentions[page.slug] %} {% if wm and wm.size > 0 %}
+  <section class="webmentions">
+    <h2>Collegamenti dal Web</h2>
+    {% for mention in wm %}
+    <article class="h-cite webmention">
+      <header>
+        {% if mention.author.photo %}
+        <img
+          class="u-photo"
+          src="{{ mention.author.photo }}"
+          alt="{{ mention.author.name }}"
+        />
+        {% endif %}
+        <a
+          class="p-author h-card"
+          href="{{ mention.author.url | default: mention.source }}"
+        >
+          {{ mention.author.name | default: mention.source }}
+        </a>
+        · {% if mention.published %}
+        <time class="dt-published" datetime="{{ mention.published }}">
+          {{ mention.published | date: "%-d %B %Y" }}
+        </time>
+        {% endif %}
+      </header>
+      {% if mention.content %}
+      <div class="p-content">{{ mention.content }}</div>
+      {% endif %}
+      <p>
+        <a class="u-url" href="{{ mention.source }}">Vedi il post originale</a>
+      </p>
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
