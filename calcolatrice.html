@@ -49,11 +49,15 @@ title: "Calcolatrice🍕"
           ><span id="saleResult" class="value">0.00</span>g
         </p>
         <p>
-          <span class="label">Lievito:</span>Fresco<span> - </span>
-          <span id="lievitoFrescoResult" class="value">0.00</span>g / Secco<span></span>
-            -
+          <span class="label">Lievito:</span>
+          <span class="lievito-values">
+            <span class="lievito-part">
+              Fresco <span id="lievitoFrescoResult" class="value">0.00</span>g /
+            </span>
+            <span class="lievito-part">
+              Secco <span id="lievitoSeccoResult" class="value">0.00</span>g
+            </span>
           </span>
-          <span id="lievitoSeccoResult" class="value">0.00</span>g
         </p>
       </div>
     </div>
@@ -151,30 +155,30 @@ title: "Calcolatrice🍕"
     </p>
   </section>
   <section>
-      <h2>Ingredienti preferiti</h2>
-      
-      <table>
-        <tr>
-          <th>Ingrediente</th>
-          <th>Marca</th>
-          <th>Note</th>
-        </tr>
-        <tr>
-          <td>Farina</td>
-          <td>Caputo Pizzeria Rossa</td>
-          <td>Ottima per pizza, buona forza e assorbimento.</td>
-        </tr>
-        <tr>
-          <td>Pomodoro</td>
-          <td>Cirio Verace</td>
-          <td>Vellutata e saporita.</td>
-        </tr>
-        <tr>
-          <td>Mozzarella</td>
-          <td>Fior di latte asciutto</td>
-          <td>Perde poco liquido durante la cottura.</td>
-        </tr>
-      </table>
+    <h2>Ingredienti preferiti</h2>
+
+    <table>
+      <tr>
+        <th>Ingrediente</th>
+        <th>Marca</th>
+        <th>Note</th>
+      </tr>
+      <tr>
+        <td>Farina</td>
+        <td>Caputo Pizzeria Rossa</td>
+        <td>Ottima per pizza, buona forza e assorbimento.</td>
+      </tr>
+      <tr>
+        <td>Pomodoro</td>
+        <td>Cirio Verace</td>
+        <td>Vellutata e saporita.</td>
+      </tr>
+      <tr>
+        <td>Mozzarella</td>
+        <td>Fior di latte asciutto</td>
+        <td>Perde poco liquido durante la cottura.</td>
+      </tr>
+    </table>
   </section>
 </div>
 
@@ -206,10 +210,14 @@ title: "Calcolatrice🍕"
         number * flourPerPanetto
       ).toFixed(1);
       document.getElementById("acquaSubitoResult").textContent = (
-        number * flourPerPanetto * phase1Hydration
+        number *
+        flourPerPanetto *
+        phase1Hydration
       ).toFixed(1);
       document.getElementById("acquaDopoResult").textContent = (
-        number * flourPerPanetto * phase2Hydration
+        number *
+        flourPerPanetto *
+        phase2Hydration
       ).toFixed(1);
 
       const lievitoFresco = number * 1.64;
@@ -364,7 +372,7 @@ title: "Calcolatrice🍕"
     display: flex;
     align-items: center;
     margin: 8px 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #bbb;
   }
 
@@ -372,6 +380,18 @@ title: "Calcolatrice🍕"
     display: inline-block;
     width: 140px;
     flex-shrink: 0;
+  }
+
+  .lievito-values {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .lievito-part {
+    white-space: nowrap;
   }
 
   .value {
@@ -384,7 +404,7 @@ title: "Calcolatrice🍕"
     max-width: 700px;
     margin: 40px auto;
   }
- table {
+  table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
