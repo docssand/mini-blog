@@ -50,4 +50,4 @@ defaults:
 
 permalink: /:year/:month/:day/:title/
 
-baseurl: "/mini-blog"
+baseurl: ""
