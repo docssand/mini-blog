@@ -6,7 +6,7 @@ title: "Calcolatrice🍕"
 <div class="container">
   <section class="calculator">
     <h2>Calcolatrice 🍕</h2>
-    <div class="subtitle">1 panetto = 280g</div>
+    <div class="subtitle">1 panetto = 300g</div>
 
     <div class="inputPizzas">
       <span class="prompt">> INSERISCI PANETTI:</span>
@@ -49,12 +49,11 @@ title: "Calcolatrice🍕"
           ><span id="saleResult" class="value">0.00</span>g
         </p>
         <p>
-          <span class="label">Lievito Fresco:</span
-          ><span id="lievitoFrescoResult" class="value">0.00</span>g
-        </p>
-        <p>
-          <span class="label">Lievito Secco :</span
-          ><span id="lievitoSeccoResult" class="value">0.00</span>g
+          <span class="label">Lievito:</span>Fresco<span> - </span>
+          <span id="lievitoFrescoResult" class="value">0.00</span>g / Secco<span></span>
+            -
+          </span>
+          <span id="lievitoSeccoResult" class="value">0.00</span>g
         </p>
       </div>
     </div>
@@ -173,24 +172,24 @@ title: "Calcolatrice🍕"
       }
 
       document.getElementById("farinaResult").textContent = (
-        number * 153.34
-      ).toFixed(2);
+        number * 153.29
+      ).toFixed(1);
       document.getElementById("acquaSubitoResult").textContent = (
-        number * 84.73
-      ).toFixed(2);
+        number * 84.63
+      ).toFixed(1);
       document.getElementById("acquaDopoResult").textContent = (
-        number * 38.44
-      ).toFixed(2);
+        number * 38.43
+      ).toFixed(1);
 
       const lievitoFresco = number * 1.54;
       document.getElementById("lievitoFrescoResult").textContent =
-        lievitoFresco.toFixed(2);
+        lievitoFresco.toFixed(1);
       document.getElementById("lievitoSeccoResult").textContent = (
         lievitoFresco / 3
-      ).toFixed(2);
+      ).toFixed(1);
       document.getElementById("saleResult").textContent = (
-        number * 4.62
-      ).toFixed(2);
+        number * 4.61
+      ).toFixed(1);
     }
 
     // Gestione pulsanti rapidi
