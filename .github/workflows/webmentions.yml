@@ -23,7 +23,7 @@ jobs:
       - name: Fetch Webmentions and update data
         env:
           WEBMENTION_DOMAIN: webi-sabi.com
-          WEBMENTION_BASEURL: /mini-blog
+          WEBMENTION_BASEURL: ""
           WEBMENTION_DATA_DIR: _data/webmentions
           WEBMENTION_POSTS_DIR: _posts
           WEBMENTION_SITE_URL: https://webi-sabi.com
@@ -35,7 +35,10 @@ jobs:
             --baseurl "$WEBMENTION_BASEURL" \
             --data-dir "$WEBMENTION_DATA_DIR" \
             --posts-dir "$WEBMENTION_POSTS_DIR" \
-            --site-url "$WEBMENTION_SITE_URL"
+            --site-url "$WEBMENTION_SITE_URL" \
+            --endpoint "$WEBMENTION_IO_ENDPOINT" \
+            --token "$WEBMENTION_IO_TOKEN" \
+            --send
 
       - name: Commit new webmention data
         run: |
