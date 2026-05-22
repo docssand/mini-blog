@@ -6,7 +6,7 @@ title: "Calcolatrice🍕"
 <div class="container">
   <section class="calculator">
     <h2>Calcolatrice 🍕</h2>
-    <div class="subtitle">1 panetto = 300g</div>
+    <div class="subtitle">1 panetto = 280g • Idratazione 67%</div>
 
     <div class="inputPizzas">
       <span class="prompt">> INSERISCI PANETTI:</span>
@@ -150,6 +150,32 @@ title: "Calcolatrice🍕"
       impasto.
     </p>
   </section>
+  <section>
+      <h2>Ingredienti preferiti</h2>
+      
+      <table>
+        <tr>
+          <th>Ingrediente</th>
+          <th>Marca</th>
+          <th>Note</th>
+        </tr>
+        <tr>
+          <td>Farina</td>
+          <td>Caputo Pizzeria Rossa</td>
+          <td>Ottima per pizza, buona forza e assorbimento.</td>
+        </tr>
+        <tr>
+          <td>Pomodoro</td>
+          <td>Cirio Verace</td>
+          <td>Vellutata e saporita.</td>
+        </tr>
+        <tr>
+          <td>Mozzarella</td>
+          <td>Fior di latte asciutto</td>
+          <td>Perde poco liquido durante la cottura.</td>
+        </tr>
+      </table>
+  </section>
 </div>
 
 <script>
@@ -171,24 +197,29 @@ title: "Calcolatrice🍕"
         return;
       }
 
+      const flourPerPanetto = 163.74;
+      const phase1Hydration = 0.55;
+      const totalHydration = 0.67;
+      const phase2Hydration = totalHydration - phase1Hydration;
+
       document.getElementById("farinaResult").textContent = (
-        number * 153.29
+        number * flourPerPanetto
       ).toFixed(1);
       document.getElementById("acquaSubitoResult").textContent = (
-        number * 84.63
+        number * flourPerPanetto * phase1Hydration
       ).toFixed(1);
       document.getElementById("acquaDopoResult").textContent = (
-        number * 38.43
+        number * flourPerPanetto * phase2Hydration
       ).toFixed(1);
 
-      const lievitoFresco = number * 1.54;
+      const lievitoFresco = number * 1.64;
       document.getElementById("lievitoFrescoResult").textContent =
         lievitoFresco.toFixed(1);
       document.getElementById("lievitoSeccoResult").textContent = (
         lievitoFresco / 3
       ).toFixed(1);
       document.getElementById("saleResult").textContent = (
-        number * 4.61
+        number * 4.91
       ).toFixed(1);
     }
 
@@ -352,5 +383,56 @@ title: "Calcolatrice🍕"
   .method {
     max-width: 700px;
     margin: 40px auto;
+  }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "SUSE Mono", monospace;
+    font-size: 0.95rem;
+    background-color: #1a1a1a; /* Stesso sfondo dei blocchi delle fasi */
+    border: 2px solid #444; /* Bordo esterno solido come la calcolatrice */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "SUSE Mono", monospace;
+    font-size: 0.95rem;
+    background-color: #1a1a1a; /* Sfondo scuro coerente con i blocchi delle fasi */
+    border: 2px solid #444; /* Bordo esterno solido */
+  }
+
+  /* Forza tutte le righe ad avere lo sfondo trasparente (annulla il bianco alternato) */
+  table tr,
+  table tr:nth-child(even),
+  table tr:nth-child(odd) {
+    background: transparent !important;
+  }
+
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+    color: #bbb; /* Testo grigio chiaro, ben leggibile sul fondo scuro */
+    border: 1px dashed #333; /* Linee tratteggiate interne */
+  }
+
+  table th {
+    font-weight: bold;
+    color: #fff; /* Intestazione in bianco puro */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #111 !important; /* Sfondo dell'header scuro e fisso */
+    border-bottom: 2px solid #444;
+  }
+
+  /* Effetto hover sulla riga, stile cursore del terminale */
+  table tbody tr:hover {
+    background-color: #222 !important;
+    color: #fff;
   }
 </style>
